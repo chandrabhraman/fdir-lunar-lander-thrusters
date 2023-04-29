@@ -1,0 +1,29 @@
+1) Accelerometer location w.r.t Body Frame
+X: -772.8 mm
+Y: -232.9032 mm
+Z: 321.5598 mm
+
+2) Rotation matrix from Body Frame to Sensor Frame
+[1 0 0; 0 1 0; 0 0 1];
+
+3) CG location w.r.t. Body Frame before ENB burn (assumed constant throughout the burn)
+r_cg = [-3.3; 0; 555.9] mm
+
+4) Accelerometer Scale Factor and Misalignment Matrix
+IMU_accelero_SF_MA =
+
+                 [ 0.0001                  8.29e-05                  8.29e-05
+                  8.29e-05                    0.0001                  8.29e-05
+                  8.29e-05                  8.29e-05                    0.0001]
+
+5) Accelerometer Bias
+IMU_accelero_bias = 5*1e-6*9.81 * randn(:,3);
+
+6) Accelerometer Beta
+IMU_accelero_beta = (0.0025*1/3.28*1/60) * sqrt(h) *  randn(:,3);
+
+7) Gyro ARW
+ARW=6.399540590645874e-07;     %rad/sec^1/2
+
+8) Gyro RRW
+RRW=2.278624301214819e-10;     %rad/sec^3/2
