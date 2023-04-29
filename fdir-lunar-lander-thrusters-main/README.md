@@ -2,11 +2,21 @@
 Find out which thrusters have been acting faulty on your lunar lander using your IMU data. Assuming digital control for pulse-controlled thrusters. 
 
 <p align="center">
+<img src="image-fdir.png" width="300">
+</p>
+<p align="center">
+    <em> Pic: What's wrong thruster? </em>
+</p>
+</p>
+
+<p align="center">
 <img src="thruster-FDIR.png" width="300">
 </p>
 <p align="center">
     <em>Fig: Thruster FDIR for lunar lander: simulation </em>
 </p>
+
+[Credit ESA](https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2012/06/lunar_lander_configuration/11253527-2-eng-GB/Lunar_Lander_configuration_article.png)
 
 # Theoretical framework
 Documented theory [here](ThrusterFDIR.pdf). Works well for modern robotic lunar landers.
