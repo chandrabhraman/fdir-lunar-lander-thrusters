@@ -38,7 +38,6 @@ Main
 │   FunPosVel.m
 │   GetCorrections.m
 │   main.m
-│   main.m~
 │   octave-workspace
 │   orb2eci.m
 │   OrbitElements.mat
