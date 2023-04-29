@@ -9,7 +9,7 @@ Find out which thrusters have been acting faulty on your lunar lander using your
 </p>
 
 # Theoretical framework
-Documented theory [here](https://github.com/visheshv/fdir-lunar-lander-thrusters/blob/main/ThrusterFDIR.pdf). Works well for modern robotic lunar landers.
+Documented theory [here](ThrusterFDIR.pdf). Works well for modern robotic lunar landers.
 
 # MICE functions
 Download and extract the MICE functions into the repository from [here](https://drive.google.com/file/d/13-JjxwSo1KwZxaKAvRTxtmL6ILYzBJmz/view?usp=sharing)
